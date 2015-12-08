@@ -29,7 +29,6 @@ int main()
 
   t1 = clock();
   forEachLoopMaxInteger(100000000);
-  printf("Integer that you have entered is"); // %d\n", a);
   t2 = clock();
 
   elapsed = timediff(t1, t2);
