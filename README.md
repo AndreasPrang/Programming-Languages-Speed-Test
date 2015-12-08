@@ -12,11 +12,11 @@
 ###  Times
 | Language | Time Elapsed|
 |----------|------------:|
-|JavaScript|606ms|
 |Swift|232ms|
+|Java|518ms|
+|JavaScript|606ms|
 |C|1016ms|
 |C++|1065ms|
-|Java|518ms|
 |Python|7796ms|
 |Ruby|8666ms|
 |Perl|19673ms|
