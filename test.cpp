@@ -10,6 +10,7 @@ class Calculations
       int forEachLoopMaxInteger(long max) {
             long sum = 0;
             for (long n = max; n > 0;  n--) {
+                  double foo = n / 17;
                   sum = sum + n ;
             }
             return max;

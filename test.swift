@@ -7,6 +7,7 @@ import Cocoa
 func forEachLoopMaxInteger(max: Int64) -> Int64 {
 	var sum : Int64 = 0
 	for (var n = max; n > 0;  n--) {
+		let _ = n / 17
 		sum = sum + n
 	}
 	return max;

@@ -4,6 +4,7 @@ import datetime
 def forEachLoopMaxInteger(max):
    	sum = 0
         for n in xrange(0, max):
+			foo = n / 17
 			sum = sum + n
         
    	return sum

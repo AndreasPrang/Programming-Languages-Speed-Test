@@ -1,6 +1,7 @@
 function test(max) {
 	var sum = 0
 	for (var n = max; n > 0; n--) {
+		foo = n / 17;
 		sum = sum + n;
 	}
 	

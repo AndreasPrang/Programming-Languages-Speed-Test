@@ -6,6 +6,7 @@ end
 def forEachLoopMaxInteger(max)
     	sum = 0
         (0..max).each do |i|
+			foo = i / 17
 			sum = sum + i
 		end
         
