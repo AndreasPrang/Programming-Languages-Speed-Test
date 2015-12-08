@@ -9,7 +9,7 @@ def forEachLoopMaxInteger(max)
 			sum = sum + i
 		end
         
-   		return max
+   		return sum
 end
 
 t1 = Time.now
@@ -18,4 +18,4 @@ t2 = Time.now
 
 msecs = time_diff_milli t1, t2
 
-puts("Ruby: #{msecs}ms")
+puts("Ruby: #{msecs.to_i}ms")

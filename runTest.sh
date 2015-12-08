@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Java
-javac -d /tmp/ Test.java
-java -cp "/tmp/" Test
+# Node.js
+node test.js
 
 # Swift
 swift test.swift 
@@ -14,6 +13,13 @@ gcc -o /tmp/test test.c
 # C++
 gcc test.cpp -o /tmp/test
 /tmp/test
+
+# Java
+javac -d /tmp/ Test.java
+java -cp "/tmp/" Test
+
+# Python
+python test.py
 
 # Ruby
 ruby test.ruby 

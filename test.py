@@ -15,4 +15,4 @@ b = datetime.datetime.now()
 
 c = b - a
 microseconds = (c.seconds * 1000000 + c.microseconds) /1000
-print "Python: %d ms" % (microseconds)
+print "Python: %ims" % (microseconds)
