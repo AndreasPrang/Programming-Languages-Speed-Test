@@ -23,3 +23,7 @@ python test.py
 
 # Ruby
 ruby test.ruby 
+
+# Perl
+perl test.pl 
+
