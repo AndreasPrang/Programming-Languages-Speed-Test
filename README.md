@@ -12,11 +12,11 @@
 ###  Times
 | Language | Time Elapsed|
 |----------|------------:|
-| Node.js | 157ms|
-| Swift | 238ms|
-| C++ | 240ms|
-| C | 241ms|
-| Java | 513ms|
-| Python | 3624ms|
-| Ruby | 5733ms|
-| Perl | 9691ms|
+|JavaScript|606ms|
+|Swift|232ms|
+|C|1016ms|
+|C++|1065ms|
+|Java|518ms|
+|Python|7796ms|
+|Ruby|8666ms|
+|Perl|19673ms|
