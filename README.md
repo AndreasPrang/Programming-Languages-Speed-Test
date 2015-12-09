@@ -16,6 +16,7 @@
 |Java|518ms|
 |JavaScript|606ms|
 |C|1016ms|
+|Objective-C|1062ms|
 |C++|1065ms|
 |Python|7796ms|
 |Ruby|8666ms|
