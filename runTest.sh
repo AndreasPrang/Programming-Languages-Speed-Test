@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Go
+rm test
+go build test.go && mv test /tmp/testGo
+/tmp/testGo
+
 # Node.js
 node test.js
 
@@ -7,12 +12,12 @@ node test.js
 swift test.swift 
 
 # C
-gcc -o /tmp/test test.c 
-/tmp/test
+gcc -o /tmp/testC test.c 
+/tmp/testC
 
 # C++
-gcc test.cpp -o /tmp/test
-/tmp/test
+gcc test.cpp -o /tmp/testCpp
+/tmp/testCpp
 
 # Objective-C
 gcc test.m -o /tmp/testObjective-C -framework Foundation -framework QuartzCore
