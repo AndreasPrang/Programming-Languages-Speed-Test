@@ -8,9 +8,9 @@ function test(max) {
 	return sum;
 }
 
-var start = new Date().getTime();
+var start = process.uptime();
 test(100000000);
-var end = new Date().getTime();
+var end = process.uptime();
 var time = end - start;
 
-process.stdout.write("JavaScript: " + time + "ms\n");
+process.stdout.write("JavaScript: " + (time * 1000) + "ms\n");
